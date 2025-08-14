@@ -44,5 +44,50 @@ setprop debug.sf.auto_latch_unsignaled false
 setprop debug.sf.enable_gl_backpressure true
 setprop debug.sf.disable_backpressure 0
 fi
+#optimize debug prop
+setprop debug.sf.boot_animation false
+setprop debug.sf.edge_extension_shader false
+setprop debug.sf.layerdump 0
+setprop debug.sf.enable_transaction_tracing false
+setprop debug.sf.layer_history_trace false
+setprop debug.sf.layer_caching_highlight false
+setprop debug.sf.enable_egl_image_tracker false
+setprop debug.sf.vsp_trace false
+setprop debug.sf.trace_hint_sessions false
+setprop debug.sf.vsync_trace_detailed_info false
+setprop debug.sf.dump 0
+setprop debug.sf.dump.external false
+setprop debug.sf.dump.primary false
+setprop debug.sf.dump.png 0
+setprop debug.sf.dump.enable false
+setprop debug.sf.ddms 0
+setprop debug.sf.sa_log 0
+setprop debug.sf.treble_testing_override false
+setprop debug.sf.kernel_idle_timer_update_overlay false
+setprop debug.sf.hwc_hotplug_error_via_neg_vsync 0
+setprop debug.sf.prime_shader_cache.edge_extension_shader false
+setprop debug.sf.prime_shader_cache.hole_punch false
+setprop debug.sf.prime_shader_cache.clipped_dimmed_image_layers false
+setprop debug.sf.prime_shader_cache.transparent_image_dimmed_layers false
+setprop debug.sf.prime_shader_cache.solid_dimmed_layers false
+setprop debug.sf.prime_shader_cache.shadow_layers false
+setprop debug.sf.prime_shader_cache.image_layers false
+setprop debug.sf.prime_shader_cache.image_dimmed_layers false
+setprop debug.sf.prime_shader_cache.solid_layers false
+setprop debug.sf.prime_shader_cache.clipped_layers false
+setprop debug.sf.prime_shader_cache.pip_image_layers false
+setprop debug.sf.showupdates 0
+setprop debug.sf.showcpu 0
+setprop debug.sf.showbackground 0
+setprop debug.sf.showfps 0
+setprop debug.sf.show_refresh_rate_overlay_spinner 0
+setprop debug.sf.show_refresh_rate_overlay_render_rate 0
+setprop debug.sf.show_refresh_rate_overlay_in_middle 0
+setprop debug.sf.enable_hwc_vds false
+setprop debug.sf.gpuoverlay 0
+setprop debug.sf.disable_hwc_vds 1
+setprop debug.sf.show_predicted_vsync false
+setprop debug.sf.luma_sampling 0
+
 }
 print_autosufq_settings &
