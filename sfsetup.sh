@@ -8,7 +8,7 @@ HALF_OFFSET=$((FRAME_DURATION_NS / 2))
 THRESHOLD_OFFSET=$((FRAME_DURATION_NS * 85 / 100))     
 REGION_DURATION=$((FRAME_DURATION_NS * 3 / 10))     
 HWC_DURATION=$((FRAME_DURATION_NS * 95 / 100))      
-setprop debug.sf.use_phase_offsets_as_durations 1
+setprop debug.sf.use_phase_offsets_as_durations 0
 setprop debug.sf.enable_advanced_sf_phase_offset 1
 setprop debug.sf.predict_hwc_composition_strategy 1
 setprop debug.sf.enable_cached_set_render_scheduling true
